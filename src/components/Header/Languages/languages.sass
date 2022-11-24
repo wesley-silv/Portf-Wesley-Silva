@@ -1,0 +1,27 @@
+@use '../../../styles/variables'
+
+.languages
+  width: 50%
+  border-radius: 10px
+  padding: 1em
+  margin: .5em
+  box-shadow: 8px 8px 5px silver
+  text-align: center
+  .languages-logos
+    a
+      margin: 10px
+      &:hover
+        border-bottom: solid 4px gray
+        padding: .2em 0
+  h3
+    text-shadow: 5px 5px 5px gray
+    color: variables.$background-color
+    font-style: oblique
+    font-size: 24px
+    font-weight: bold
+    margin-bottom: .8em
+
+@media screen and (min-width: 412px)  
+  .languages
+    width: 100%
+

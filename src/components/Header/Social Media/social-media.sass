@@ -1,0 +1,23 @@
+@use '../../../styles/variables'
+
+.social-media
+  text-align: center
+  box-shadow: 8px 8px 5px silver
+  padding: 1em 
+  width: 50%
+  margin: .5em
+  border-radius: 10px
+  h2
+    text-shadow: 5px 5px 5px gray
+    margin-bottom: 1em
+    color: variables.$background-color
+    font-weight: bold
+  a
+    margin: .8em
+    &:hover
+      padding: .2em 0
+      border-bottom: solid 4px variables.$background-color
+
+@media screen and (min-width: 412px)  
+  .social-media
+    width: 100%
