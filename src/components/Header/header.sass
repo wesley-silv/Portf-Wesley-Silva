@@ -1,27 +1,39 @@
 @use '../../styles/variables'
-  
+
 .header
   .profile
+    display: flex
+    justify-content: space-between
     box-shadow: 8px 8px 5px silver
     padding: 1em 1em
+    box-sizing: border-box
     img
       width: 200px
-      border-radius: 25px
+      border-radius: 20px
     h2
       font-style: oblique
       font-size: 30px
       color: variables.$background-color
-      margin: .5em
+      margin: .5em 1em
     h3
+      color: variables.$background-color
       font-style: oblique
       font-size: 20px
-      margin: .5em
+      margin: .5em 1em
+  .about-me
+
   .stack
     display: flex
 
 @media screen and (max-width: 412px)
+  .profile
+    text-align: center
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    justify-content: center
+    img
+      margin: auto
+
   .stack
     flex-direction: column
-      
-  
-      

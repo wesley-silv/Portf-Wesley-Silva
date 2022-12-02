@@ -15,12 +15,14 @@ const Header = () => {
     <div className='header'>
       <div className='profile'>
         <img src={perfil.imagem} alt={perfil.alt} />
+        <div className="profile-title">
         <h2>
           Wesley Silva
         </h2>
         <h3>
         Front end Developer
         </h3>
+        </div>
         <div className="about-me">
         <Description />
         </div>
