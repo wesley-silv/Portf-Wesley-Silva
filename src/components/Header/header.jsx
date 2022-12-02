@@ -8,7 +8,7 @@ import SocialMedia from './Social Media/social-media'
 
 const Header = () => {
   const perfil = {
-    imagem: '../src/assets/Wesley S. Conceição.jpg ',
+    imagem: '../src/imagem/Wesley S. Conceição.jpg ',
     alt: 'Imagem principal do portfólio'
   }
   return (
