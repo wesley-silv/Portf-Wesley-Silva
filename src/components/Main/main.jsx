@@ -3,7 +3,7 @@ import './main.sass'
 
 const Main = () => {
   const imagens = {
-    programacao: '../src/image/img.programação.png'
+    programacao: '/src/image/img.programação.png'
   }
   return (
     <div className="main">
