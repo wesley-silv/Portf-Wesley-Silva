@@ -12,7 +12,7 @@ const Expertise = () => {
       </h2>
       <div className="expertise-javascript">
         Uso como principal linguagem de progração o JavaScript, por ser muito versátil na construção de aplicações front, back e fullstack. Além de poder ser utilizado em um grande campo de utilizações.
-        <img src={imagens.javascript} alt="" />
+        <img src={imagens.javascript} alt="circulo com duas cores azul e amarelo contendo as letras js dentro de um par de chaves" />
       </div>
     </div>
   )
