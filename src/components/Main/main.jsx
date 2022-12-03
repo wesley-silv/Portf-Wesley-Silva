@@ -3,11 +3,11 @@ import './main.sass'
 
 const Main = () => {
   const imagens = {
-    programacao: '../src/imagem/img.programação.png'
+    programacao: '../src/image/img.programação.png'
   }
   return (
     <div className="main">
-      <img src={imagens.programacao} alt="Tela de um computador em 3d apresentando várias ferramentas tecnologicas." />
+      <img src={imagens.programacao} alt="Tela de um computador em 3d apresentando várias ferramentas tec nologicas." />
       <p>
         <span>Onde podemos encontrar a Progração? </span><br />
         A programação está diretamente realcionada com outros tipos de ferramentas.
