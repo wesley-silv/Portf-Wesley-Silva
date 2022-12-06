@@ -2,7 +2,7 @@
 import './languages.sass'
 
 // Icons
-import {GrReactjs, SiJavascript, ImHtmlFive, ImCss3, DiMongodb, FaNodeJs, } from 'react-icons/all'
+import {GrReactjs, SiJavascript, ImHtmlFive, ImCss3, DiMongodb, FaNodeJs, FaSass } from 'react-icons/all'
 
 const Languages = () => {
 
@@ -12,6 +12,7 @@ const Languages = () => {
     nodejs: 'https://nodejs.org',
     html5: 'https://developer.mozilla.org/pt-BR/docs/Learn/HTML',
     css3: 'https://developer.mozilla.org/pt-BR/docs/Learn/CSS',
+    sass: 'https://sass-lang.com',
     mongodb: 'https://www.mongodb.com/home',
     target: 'blank'
   }
@@ -38,6 +39,9 @@ const Languages = () => {
       </a>
       <a href={lenguages.css3} target={lenguages.target} >
         <ImCss3 size={40} color='#00aaff' />
+      </a>
+      <a href={lenguages.sass} target={lenguages.target}>
+        <FaSass size={40} color='#90856f' />
       </a>
       </section>
     </div>
