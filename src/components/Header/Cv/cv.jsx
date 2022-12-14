@@ -13,7 +13,7 @@ const Cv = () => {
   }
   return (
     <div className="cv">
-      <BsDownload  size={30} color='#0000f9' title='Curriculum' cursor='pointer' onClick={download}  />
+      <BsDownload  size={30} color='#0000f9' title='Curriculum'npm  cursor='pointer' onClick={download}  />
     </div>
   )
 }
