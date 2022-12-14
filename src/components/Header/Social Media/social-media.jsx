@@ -3,6 +3,7 @@ import './social-media.sass'
 
 // Icons
 import {BsGithub, BsLinkedin, BsWhatsapp, SiMicrosoftoutlook } from 'react-icons/all'
+import Cv from '../Cv/cv';
 
 const SocialMedia = () => {
 
@@ -31,6 +32,7 @@ const SocialMedia = () => {
        <a href={socialMedia[4]} target={socialMedia[0]}>
        <BsWhatsapp size={35} color='lime' />
        </a>
+       <Cv />
       </div>
   )
 }
