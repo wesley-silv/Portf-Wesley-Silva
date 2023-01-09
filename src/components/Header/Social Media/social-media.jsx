@@ -21,7 +21,7 @@ const SocialMedia = () => {
           Network
         </h2>
        <a href={socialMedia[1]} target={socialMedia[0]}>
-       <BsGithub size={35} color='#000000' />
+       <BsGithub id='BsGithub' size={35} color='#000000' />
        </a>
        <a href={socialMedia[2]} target={socialMedia[0]}>
         <BsLinkedin size={35} color='#0000ff' />

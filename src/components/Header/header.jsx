@@ -17,10 +17,10 @@ const Header = () => {
       <div className='profile'>
         <img src={perfil.imagem} alt={perfil.alt} />
         <div className="profile-title">
-        <h2>
+        <h2 id='h2'>
           Wesley Da Silva Conceição
         </h2>
-        <h3>
+        <h3 id='h3'>
         Front-end Developer
         </h3>
         </div>
