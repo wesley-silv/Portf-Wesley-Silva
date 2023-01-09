@@ -17,11 +17,11 @@ const Darkmode = () => {
   function nightChange() {
     var root = document.getElementById("root").style.backgroundColor = '#000000'
     var header = document.getElementById("header").style.backgroundColor = '#000000'
-    var fontTitle = document.getElementById('h2').style.color = '#ffffff'
+    var fontTitle = document.getElementById('h2').style.color = '#00caf8'
     var fontSubTitle = document.getElementById('h3').style.color = '#ffffff'
-    var DescriptionTitle = document.getElementById("description-title").style.color = '#ffffff'
+    var DescriptionTitle = document.getElementById("description-title").style.color = '#00caf8'
     var DescriptionSubtitle = document.getElementById("description-subtitle").style.color = '#ffffff'
-    var DescriptionText = document.getElementById("description-text").style.color = '#ffffff'
+    var DescriptionText = document.getElementById("description-text").style.color = '#00caf8'
     document.getElementById('BsGithub').style.color = "#ffffff"
   }
 
