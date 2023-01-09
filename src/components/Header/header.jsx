@@ -1,4 +1,5 @@
 // Style
+import Darkmode from './Darkmode/darkmode'
 import Description from './Description/description'
 import './header.sass'
 import Languages from './Languages/languages'
@@ -12,7 +13,7 @@ const Header = () => {
     alt: 'Imagem principal do portfólio'
   }
   return (
-    <div className='header'>
+    <div className='header' id='header'>
       <div className='profile'>
         <img src={perfil.imagem} alt={perfil.alt} />
         <div className="profile-title">
@@ -24,6 +25,7 @@ const Header = () => {
         </h3>
         </div>
         <div className="about-me">
+        <Darkmode />
         <Description />
         </div>
       </div>

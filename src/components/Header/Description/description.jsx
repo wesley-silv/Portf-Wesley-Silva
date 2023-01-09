@@ -14,7 +14,6 @@ const Description = () => {
         Atuando no mercado tecnológico desde o ano de 2020, onde tive o primeiro contato com a tecnologia e o uso das linguagens de programação.
         Atualmente desenvolvendo projetos fullstack com o uso das mais variadas bibliotecas.
       </p>
-
     </div>
   )
 }
