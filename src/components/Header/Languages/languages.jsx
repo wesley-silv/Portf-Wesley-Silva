@@ -17,9 +17,9 @@ const Languages = () => {
     target: 'blank'
   }
   return (
-    <div className="languages">
-      <h3>
-        Languages
+    <div className="languages" >
+      <h3 id='experience'>
+        Experience
       </h3>
       <section className='languages-logos'>
       <a href={lenguages.javascript} target={lenguages.target}>

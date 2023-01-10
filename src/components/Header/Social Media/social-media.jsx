@@ -17,7 +17,7 @@ const SocialMedia = () => {
 
   return (
     <div className='social-media'>
-        <h2>
+        <h2 id='netWork'>
           Network
         </h2>
        <a href={socialMedia[1]} target={socialMedia[0]}>
