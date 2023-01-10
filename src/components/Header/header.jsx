@@ -14,7 +14,7 @@ const Header = () => {
   }
   return (
     <div className='header' id='header'>
-      <div className='profile'>
+      <div className='profile' id='profile'>
         <img src={perfil.imagem} alt={perfil.alt} />
         <div className="profile-title">
         <h2 id='h2'>

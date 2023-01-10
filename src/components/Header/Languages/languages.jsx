@@ -17,7 +17,7 @@ const Languages = () => {
     target: 'blank'
   }
   return (
-    <div className="languages" >
+    <div className="languages" id='languages' >
       <h3 id='experience'>
         Experience
       </h3>

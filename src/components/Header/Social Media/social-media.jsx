@@ -16,7 +16,7 @@ const SocialMedia = () => {
   ]
 
   return (
-    <div className='social-media'>
+    <div className='social-media' id='social-media'>
         <h2 id='netWork'>
           Network
         </h2>
